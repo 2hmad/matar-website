@@ -1,0 +1,14 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .email,
+    .subject,
+    .content {
+        padding: 9px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        outline: none;
+        font-size: 17px;
+    }
+}
