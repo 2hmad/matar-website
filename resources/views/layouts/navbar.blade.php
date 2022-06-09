@@ -19,9 +19,9 @@
                     <a href="https://play.google.com/store/apps/details?id=com.izzedineeita.ghym">تطبيق غيم</a>
                 </li>
                 <li>
-                    <a href="/register" class="button">تسجيل حساب</a>
+                    <a href="https://affiliate.rain-app.com/register" class="button">تسجيل حساب</a>
                 </li>
-                <li><a href="/login" class="button">تسجيل الدخول</a></li>
+                <li><a href="https://affiliate.rain-app.com/login" class="button">تسجيل الدخول</a></li>
             </ul>
         </div>
     </nav>
@@ -42,9 +42,9 @@
                 <a href="https://play.google.com/store/apps/details?id=com.izzedineeita.ghym">تطبيق غيم</a>
             </li>
             <li>
-                <a href="/register" class="button">تسجيل حساب</a>
+                <a href="https://affiliate.rain-app.com/register" class="button">تسجيل حساب</a>
             </li>
-            <li><a href="/login" class="button">تسجيل الدخول</a></li>
+            <li><a href="https://affiliate.rain-app.com/login" class="button">تسجيل الدخول</a></li>
         </ul>
     </nav>
 </div>
