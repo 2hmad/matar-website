@@ -36,12 +36,19 @@
         @include('layouts.navbar')
         <div class="container" style="margin-top: 80px">
             <h2>تواصل معنا</h2>
-            <form class="contact-form" method="POST">
+            <form class="contact-form" method="POST" action="{{ route('contact') }}">
+                @csrf
                 <input type="email" name="email" class="email" placeholder="البريد الالكتروني">
                 <input type="text" name="subject" class="subject" placeholder="عنوان الموضوع">
                 <textarea name="content" class="content" placeholder="نص الموضوع" rows="5"></textarea>
-                <button class="button">ارسال</button>
+                <button class="button" type="submit">ارسال</button>
             </form>
+            <br>
+            @if (\Session::has('success'))
+                <div class="alert-success">
+                    {!! \Session::get('success') !!}
+                </div>
+            @endif
         </div>
 </body>
 
