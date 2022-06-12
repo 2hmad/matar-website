@@ -14,7 +14,7 @@ class ContactController extends Controller
     public function contact(Request $request)
     {
         $insert = DB::table('support_tickets')->insert([
-            'user_id' => $request->email,
+            'email' => $request->email,
             'subject' => $request->subject,
             'content' => $request->content,
             'date' => date('Y-m-d'),
